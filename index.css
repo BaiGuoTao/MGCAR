@@ -1,0 +1,138 @@
+
+/*背景颜色*/
+.block_bg {
+    background: #000;
+}
+/*头部样式*/
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 11;
+    background: #000;
+    display: flex;
+
+}
+/*导航栏LOGO*/
+#header .a_logo{
+    left: 50%;
+    width: .54rem;
+    top:0.16rem;
+    margin-left: -.27rem;
+    position: fixed;
+    z-index: 12;
+    display: flex;
+}
+/*导航栏*/
+.nav_all{
+    height: 5.8rem;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+    max-width: 1921px;
+    border-bottom: none;
+   
+}
+.nav_all a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+/*导航栏左侧*/
+
+.nav_left .left_first li{
+    float: left;
+    list-style: none;
+    margin:40px;
+    margin-right: 3.25rem ;
+    display: flex;
+    margin-top: 30px;
+  
+
+}
+/*导航栏右侧*/
+
+.nav_right .right_first li{
+    float: right;
+    list-style: none;
+    margin:40px; 
+    margin-left: 5.25rem ;
+    display: flex;
+    margin-top:30px;
+  
+}
+
+
+/*轮播图*/
+#lunbo{
+    width:100%px;
+    position:relative;
+  }
+#lunbo>img{
+    width:100%;
+    position:absolute; top:117px; left:0;
+    opacity:0;
+    transition:all .5s linear;
+}
+#lunbo>img.show{  opacity:1;  }
+
+
+/*详情样式*/
+.details .bg_picture img{
+    width: 100%;
+    top: 1120px;  
+    position: relative;
+    overflow: hidden;
+   
+  
+}
+/*3d效果*/
+.details .hs_3d img{
+    position: relative;
+     left:640px;
+     top: 350px;
+     width: 930px;
+    
+    
+}
+/*详情图列表*/
+.car_details .details_list_1{
+    color:#fff;
+    font-size: 25px;
+    line-height:20px;
+    height: 64px;
+    position: relative;
+    left: 230px;
+    bottom: 50px;
+
+
+}
+.car_details .details_red_log{
+    width: 325px;
+    height: 45px;
+    position: relative;
+    bottom: 100px;
+    left: 165px;
+ 
+}
+.red_log_font{
+    color:#fff;
+    position: relative; 
+    bottom:144px;
+    left: 250px;
+    font-size: 25px;
+ 
+}
+.line{ 
+    display:inline-block;
+    width:200px;
+    height:1px;
+    background:red;
+    
+ 
+}
+
+
