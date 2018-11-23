@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>名爵登录</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <script src=""></script>
+</head>
+<body>
+ <div class="login">
+<!--导航栏-->
+    <div id="cheader">
+        <h1 class="a_logo">
+            <a href="#" class="tophome"><img src="../Public/img/picture/logo.png" style="width:100%;display:block;"></a>
+        </h1>
+        <div class="nav_all">
+<!--导航栏左侧-->
+            <div class="nav_left">
+                <ul class="left_first">
+                    <a href="#"><li  style="font-size:20px ">寻找 &nbsp;•&nbsp;你的<b>MG</b></li></a>
+                    <a href="#"><li  style="font-size:20px ">购车工具</li></a>
+                    <a href="#"><li  style="font-size:20px ">车主服务</li></a>
+                </ul>
+            </div>
+<!--导航栏右侧-->
+            <div class="nav_right"> 
+                <ul class="right_first">
+                    <a href="#"><li><img  src="../Public/img/picture/kehu.png" alt=""></li></a>
+                    <a href="#"><li style="font-size:20px ">MG &nbsp;•&nbsp;always YOUNG</li></a>
+                </ul>
+            </div>
+        </div>  
+    </div> 
+<!--导航栏结束-->
+ 
+
+<!--登录窗口-->
+            <form id="card" action="" method="POST">
+                <div class="login_form">
+                    <ul>
+                        <li class="input1">
+                            <input type="text" class="test"  id="uphone"  placeholder="请输入手机号码" size="25" maxlength="11">
+                        </li>
+                        <li class="input1">
+                            <input type="text" class="text" id="upwd" placeholder="请输入密码">
+                        </li>
+                        <li class="check" style="position:relative">
+                            <input type="text" class="text" id="checked" name="code" maxlength="4" placeholder="请输入验证码">
+                            <input type="text" class="text">
+                            <span><a href="#" id="checked_a">换一张</a></span>
+                        </li>
+                        <li class="submit">
+                            <button id="go_btn" class="btn btn-primary submit" value="登录" type="submit" tabindex="4">登 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;录</button>
+                        </li>
+                    </ul>
+                    <div id="login_form_upwd" style="position:relative ; margin-top:16px;">
+                            <p>还没有账户</p>
+                            <a id="newbtn" href="">立即创建</a>
+                            <a id="oldbtn" href="">忘记密码?</a>
+                        </div>
+                </div>
+            </form>
+<!--登录窗口结束-->
+</div>
+</body>
+</html>
